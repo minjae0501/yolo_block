@@ -10,7 +10,7 @@ def rename_files(source_directory):
     file_paths = [f for f in os.listdir(source_directory) if f.endswith('.txt')]
 
     # 이름 변경 후 이동
-    i = 300
+    i = 200
     for file_name in file_paths:
         # 새이름
         file_name_split_01 = file_name.split('_jpg')[0]
@@ -23,5 +23,5 @@ def rename_files(source_directory):
         print(f"Renamed and moved '{file_name}' to '{new_file_path}'")
 
 # Example Usage
-source_directory = 'C:\\Users\\qnwje\\OneDrive\\바탕 화면\\zerobase\\딥러닝 팀플\\hand_tracing\\yolo_block\\truck_data\\train\\labels'  # 라벨 디렉토리
+source_directory = 'C:\\Users\\qnwje\\OneDrive\\바탕 화면\\zerobase\\딥러닝 팀플\\yolo_block\\data\\truck_data\\train\\labels'  # 라벨 디렉토리
 rename_files(source_directory)
