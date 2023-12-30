@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 16
+names: ['blue_bridge', 'blue_half_circle', 'blue_long_rectangle', 'blue_quarter_of_circle', 'green_circle', 'green_cube', 'hand', 'orange_circle', 'orange_cube', 'red_circle', 'red_cube', 'red_thin_rectangle', 'triangle', 'yellow_bridge', 'yellow_cube', 'yellow_half_circle']
+
+roboflow:
+  workspace: project-kycel
+  project: yolo_block
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/project-kycel/yolo_block/1
