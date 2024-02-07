@@ -14,7 +14,7 @@
 - 이미지 분류(YOLOv8n)와 동작인식 모델(LSTM)을 이용한 조립 과정 **실시간 보조**
 - 주요 액션:
    ![](https://velog.velcdn.com/images/qnwjej/post/8bf23521-d6c6-4f8b-8b32-ec97669370db/image.png)
-- GitHub: https://github.com/ing970/final-project
+
 
 > ## 프로젝트 상세
 
